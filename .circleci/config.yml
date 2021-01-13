@@ -6,7 +6,7 @@ jobs:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - run: exit 0
+      - run: echo "hello"
       - slack/notify:
           custom: |
             {
